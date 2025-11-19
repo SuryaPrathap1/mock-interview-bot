@@ -12,15 +12,15 @@ An interactive AI-powered mock interview system that supports:
 
 ---
 
-## 🚀 Features
+## Features
 
-### ✅ 1. Interview Type Selection  
+###  1. Interview Type Selection  
 Choose:
 - Technical (TR)
 - Managerial (MR)
 - HR
 
-### ✅ 2. Technical Topics  
+###  2. Technical Topics  
 TR supports topic selection such as:
 - Programming  
 - Data Structures  
@@ -31,17 +31,17 @@ TR supports topic selection such as:
 - OOP  
 - Software Engineering  
 
-### ✅ 3. Voice & Text Input  
+### 3. Voice & Text Input  
 - Answer questions by **typing** or **speaking**  
 - Speech recorded until you click **Stop Recording**  
 - User’s spoken text appears in the chat
 
-### ✅ 4. AI-Generated Questions  
+###  4. AI-Generated Questions  
 - Uses **Google Gemini API**  
 - Asks topic-based questions **one by one**  
 - Maintains history session using Flask + JS
 
-### ✅ 5. Live Feedback  
+### 5. Live Feedback  
 After every answer, AI evaluates:
 - Content quality  
 - Clarity  
@@ -51,7 +51,7 @@ After every answer, AI evaluates:
 
 Shown neatly outside the chat box.
 
-### ✅ 6. End Interview  
+###  6. End Interview  
 Shows:
 - Overall feedback  
 - Strengths  
@@ -60,7 +60,7 @@ Shows:
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |----------|------------|
@@ -72,6 +72,6 @@ Shows:
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 
