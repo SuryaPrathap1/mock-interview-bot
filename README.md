@@ -70,8 +70,6 @@ Shows:
 | Voice | Web Speech API (Recognition), pyttsx3 (TTS) |
 | Version Control | Git + GitHub |
 
----
 
-##  Folder Structure
 
 
