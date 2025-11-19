@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Interview Panel</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<main class="container">
+
+  <h1 class="title"> Interview Panel</h1>
+  <p class="subtitle">Select interview type to begin</p>
+
+
+  <section id="selection">
+
+    <div class="btn-row">
+      <button class="select-btn" data-type="TR">Technical (TR)</button>
+      <button class="select-btn" data-type="MR">Managerial (MR)</button>
+      <button class="select-btn" data-type="HR">HR</button>
+    </div>
+
+    <div id="topic-wrap" class="hidden topic-box">
+      <label>Select Technical Topic:</label>
+      <select id="topic">
+        <option value="Programming">Programming</option>
+        <option value="Data Structures">Data Structures</option>
+        <option value="Algorithms">Algorithms</option>
+        <option value="DBMS">DBMS</option>
+        <option value="Operating Systems">Operating Systems</option>
+        <option value="Computer Networks">Computer Networks</option>
+        <option value="OOP">OOP</option>
+        <option value="Software Engineering">Software Engineering</option>
+      </select>
+    </div>
+
+    <div class="start-row">
+      <input type="hidden" id="session_id" value="{{ session_id }}">
+      <button id="start-btn" class="main-btn" disabled>Start Interview</button>
+      <button id="reset-btn" class="ghost-btn">Reset</button>
+    </div>
+  </section>
+
+
+  <section id="chat-area" class="hidden">
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="voice-area">
+      <textarea id="answer-input" placeholder="Type your answer..."></textarea>
+
+      <div class="rec-controls">
+        <button id="rec-start" class="ghost-btn">Start Recording</button>
+        <button id="rec-stop" class="danger-btn hidden">Stop</button>
+
+        <div id="rec-indicator" class="rec-indicator hidden">
+          <span class="dot"></span> Recording...
+        </div>
+      </div>
+    </div>
+
+    <div class="send-row">
+      <button id="send-btn" class="main-btn">Send</button>
+      <button id="exit-btn" class="danger-btn">Exit</button>
+    </div>
+  </section>
+
+</main>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
